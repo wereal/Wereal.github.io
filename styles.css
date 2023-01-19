@@ -404,3 +404,54 @@ padding-right: 1%;
     margin:auto;
 
   }
+
+
+/*---------------------About me page---------------------------------*/
+   
+
+.rounded-circle {
+  
+    border-radius: 50%;
+    width: 20vw; /* 20% of the viewport width */
+    height: 20vw; /* 20% of the viewport width */
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+  
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  img {
+    width: auto; /* make the image take up the full width of the screen */
+  }
+}
+
+
+
+
+
+.center-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  padding: 1%;
+  text-justify:absolute;
+
+}
+
+
+.center-text_1{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:xx-large;
+  padding: 5%;
+  
+}
