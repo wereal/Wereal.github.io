@@ -146,52 +146,46 @@ padding-right: 1%;
 
 
 /*Cards*/
-
+.token-container {
+  margin: 1%;
+  padding: 3%;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  
+  
+}
 /* Card that is in right side */
+
 .card {
-    margin-top: 15vh ;
-    float:  right;
-    width: 90%;
-    height: 300px;
+    
+    margin: 0.5rem;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
     background-color: #011522;
-    border-radius: 8px;
-    z-index: 1;
+    border-radius: 20px;
+}
+
+.card--1{
+
+  border-radius: 4px;
 
 }
 
-/* Card that is in left side */
+.card--2{
+  
+}
 
+.card--3{
 
-.tools {
-    display: flex;
-    align-items: center;
-    padding: 9px;
-   }
+}
 
-.circle {
-    padding: 0 4px;
-   }
-   
-.box {
-    display: inline-block;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    padding: 1px;
-    border-radius: 50%;
-   }
-   
-.red {
-    background-color: #ff605c;
-   }
-   
-.yellow {
-    background-color: #ffbd44;
-   }
-   
-.green {
-    background-color: #00ca4e;
-   }
    
    
 /* button styles */
@@ -228,46 +222,6 @@ padding-right: 1%;
     transform: scale(1.10);
    }
    
-
-
-   
-
-/****************************************************************/
-.nav-container {
-    margin-left: 15%;
-    display: flex;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-}
-
-.nav-container ul {
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.nav-container ul li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-block;
-    list-style: none;
-}
-
-.nav-container ul li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
-.hr {
-    border: 0;
-    border-top: 1px solid #fff;
-    margin: 1em 0;
-    background-color: #fff;
-    border-color: #fff;
-  }
-
 
   /* =================================================================  */ 
   .center{
@@ -385,27 +339,7 @@ padding-right: 1%;
   /*----------------------------------------------------------------*/
 
   
-  @media (min-width:1025px) {
- 
-    max-width: 1025px;
-    margin:auto;
-
-  }
-
-  @media (min-width:769px) {
-    max-width:769px;
-    margin:auto;
-
-
-
-  }
-
-  @media (min-width:481px) {
- 
-    max-width:481px;
-    margin:auto;
-
-  }
+  
 
 
 /*---------------------About me page---------------------------------*/
@@ -526,6 +460,7 @@ padding-right: 1%;
 
 /* =====================Portfolio page ============================================ */
 
+
 .container_grid {
     min-height: 100%;
     width: 100%;
@@ -548,7 +483,7 @@ padding-right: 1%;
   .item {
     margin: 0.5rem;
     padding: 6rem;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2.5rem;
     font-family: sans-serif;
     border-radius: 0.2rem;
@@ -566,7 +501,6 @@ padding-right: 1%;
     
   }
   .item--2 {
-    background-color: rgb(38, 39, 40);
     background-image: url("../images/Screenshot.png" );
   }
   .item--3 {
