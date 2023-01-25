@@ -113,6 +113,7 @@ nav ul li a {
 color: #fff;
 text-decoration: none;
 position: relative;
+text-shadow: 5px 5px 6px  black;
 }
 
 nav ul li a::after {
@@ -374,10 +375,12 @@ padding-right: 1%;
   .footer-dark {
     padding:50px 0;
     color:#f0f9ff;
-    background-color:inherit
+    background-color:inherit;
+    text-shadow: 5px 5px 6px  rgb(0, 0, 0);
   }
   .footer-dark li {
     display: inline;
+    
   }
   .footer-dark h3 {
     margin-top:0;
@@ -387,6 +390,7 @@ padding-right: 1%;
   }
   
   .footer-dark ul {
+    word-spacing: 3px;
     padding:0;
     list-style:none;
     line-height:1.6;
@@ -506,7 +510,7 @@ padding-right: 1%;
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align:center;
-  font-size:medium;
+  font-size:large;
   padding:1%;
 }
 
@@ -718,3 +722,28 @@ padding-right: 1%;
   
 }
 
+
+.typewriter  {
+  color: #fff;
+  font-family: inherit;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(240, 240, 240) }
+}
