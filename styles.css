@@ -480,30 +480,25 @@ padding-right: 1%;
 
 
 
-
+.card_about{
+  
+  background-color: #97a9f31c;
+  padding:5%;
+}
 
 .center-text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align:center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: larger;
-  padding: 1%;
-  text-justify:absolute;
+  font-size:large;
   
-
 }
 
-@media  (max-width: 480;) { 
-  .center-text{
+.ppp{
 
-font-size: xx-small;
-align-items: center;
-      
-  }
+  font-size: x-large;
+  text-align: center;
 
-  
+
 }
 
 
@@ -511,23 +506,32 @@ align-items: center;
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align:center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size:large;
+  font-size:medium;
   padding:1%;
-  
 }
-@media  (max-width: 480;) { 
+
+
+@media (max-width: 480px) {
+  .center-text {
+    text-align:none;
+    font-size: small;
+  }
+  .footer-dark{
+    background-color: #353f46;
+  }
+
+  .ppp{
+
+    font-size: large;
+  }
+
   .center-text_1{
-
-    font-size: xx-small;
-    align-items: center;
+    text-align:none;
+    font-size: small;
     
-
-      
   }
 }
+
 
 
 
@@ -686,7 +690,7 @@ align-items: center;
 
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .column-66,
   .column-33 {
     width: 100%;
@@ -698,6 +702,7 @@ align-items: center;
   .img_2 {
     margin: auto;
   }
+  
 }
 
 
@@ -712,3 +717,4 @@ align-items: center;
   text-align:start;
   
 }
+
