@@ -582,15 +582,20 @@ padding-right: 1%;
   .item--1 {
     
     background-color: rgb(38, 39, 40);
-    background-image: url("../images/github-mark.png" );
+    background-image: url("../images/background-repeat no-repeat; (1).png" );
     
   }
   .item--2 {
     background-color: inherit;
-    
+    background-image: url("../images/screenshot.png" );
+   
   }
- /* .item--3 {
-    background-color: red;
+ .item--3 {
+    background-image: url("../images/img1.png" );
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-color: rgb(61, 60, 60);
   }
   .item--4 {
     background-color: green;
